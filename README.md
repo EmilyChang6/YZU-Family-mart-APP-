@@ -1,4 +1,4 @@
-# YZU-Family-mart-APP-
+# YZU-Family-mart-APP- 
 🔥 Firebase Realtime Database + Java（Android Studio）
 ## MOTIVATION 
 * long Queues at family mart at lunchtime due to the fact that we only have one convenient shop in the school. 
@@ -8,3 +8,5 @@
 * avoiding crowds and the use of cash or card interaction -- to avoid the spread of covid 19.
 * create part-time jobs for students -- to pick up orders.
 * Better the service --sometimes you need to use the ticketing system but you may not know how to use it, but through our app, we will be able to require this service to be done for us and simply just pick up our tickets. 
+## DEMO 
+https://www.youtube.com/watch?v=WUwfJ8_AByw
