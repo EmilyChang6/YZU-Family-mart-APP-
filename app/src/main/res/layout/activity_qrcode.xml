@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:background="@color/black"
+        android:id="@+id/panel"
+        android:weightSum="16"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/btnBack"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            app:srcCompat="@drawable/ic_baseline_navigate_before_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="11"
+            android:gravity="center"
+            android:text="QR Code"
+            android:textColor="@color/white"
+            android:textSize="35sp" />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Arrival time"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageview"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_qr_code_24"/>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="141dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Done" />
+
+    <EditText
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:text="Show details"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
